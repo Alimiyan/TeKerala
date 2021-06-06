@@ -1,0 +1,45 @@
+.navbar{
+    background-color: #262044;
+    
+}
+body{
+    margin: 0px;
+    padding: 0px;
+}
+#h-one{
+    background-color: #ab3103;
+}
+.tek-img{
+   max-width: 100%;
+   margin-left: -12px;
+}
+.brk-chain{
+    width: 150px;
+}
+.te{
+    width: 120px;
+}
+.sidenav {
+    height: 100%; /* Full-height: remove this if you want "auto" height */
+    width: 160px; /* Set the width of the sidebar */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: #262044;
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 20px;
+  }
+  .sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+  }
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
