@@ -19,9 +19,38 @@ body{
 .te{
     width: 120px;
 }
+.nav{
+    float: left;
+}
+.left-body{
+    float: left;
+}
+.right-body{
+    float: left;
+    background-color: #262044;
+    padding: 4px;
+    border: grey 1px solid;
+    border-radius: 8px;
+    margin-top: 1%;
+    margin-left: 15%;
+    box-shadow: rgb(117, 114, 114) 2px 5px 5px 5px;
+}
+.form-outline{
+    
+    margin-left: 10%;
+    margin-top: 5%;
+    width: 70%;
+}
+.btn-signin{
+    margin-left: 11%;
+    width: 112px;
+    height: 38px;
+    border-radius: 6px;
+    margin-bottom: 10px;
+}
 .sidenav {
-    height: 100%; /* Full-height: remove this if you want "auto" height */
-    width: 160px; /* Set the width of the sidebar */
+    height: 107%; /* Full-height: remove this if you want "auto" height */
+    width: 265px; /* Set the width of the sidebar */
     z-index: 1; /* Stay on top */
     top: 0; /* Stay at the top */
     left: 0;
